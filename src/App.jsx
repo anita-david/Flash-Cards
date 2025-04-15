@@ -3,6 +3,8 @@ import { useState } from "react";
 export default function App() {
   return (
     <div className="App">
+      <h1 className="headings">Flashcards</h1>
+      <h3 className="headings">Click on a title to reveal the answer</h3>
       <FlashCards />
     </div>
   );

@@ -7,11 +7,15 @@ body {
   padding: 20px;
 }
 
+.headings{
+  text-align: center;
+}
 .flashcards {
   display: grid;
-  grid-template-columns: 1fr 1fr 1fr;
-  gap: 20px;
-}
+  grid-template-columns: 1fr;
+  gap: 40px;
+  max-width: 400px;
+  margin: 0 auto;}
 
 .flashcards div {
   border: 1px solid #e7e7e7;
